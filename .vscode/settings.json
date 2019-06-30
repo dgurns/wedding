@@ -1,61 +1,61 @@
-// {
-//   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-//   "editor.quickSuggestionsDelay": 30,
-//   "workbench.editor.tabSizing": "shrink",
-//   "html.format.enable": true,
-//   "html.format.preserveNewLines": true,
-//   "files.trimTrailingWhitespace": true,
-//   "editor.tabSize": 2,
-//   "editor.cursorStyle": "line",
-//   "editor.wordWrap": "on",
-//   "editor.multiCursorModifier": "ctrlCmd",
-//   "editor.fontWeight": "400",
-//   "editor.cursorBlinking": "solid",
-//   "editor.colorDecorators": false,
-//   "editor.minimap.enabled": false,
-//   "workbench.sideBar.location": "left",
-//   "editor.renderWhitespace": "none",
-//   "editor.rulers": [80, 100],
-//   "editor.minimap.showSlider": "always",
-//   "extensions.ignoreRecommendations": false,
-//   "files.exclude": {
-//     "**/.git": true,
-//     "**/.svn": true,
-//     "**/.hg": true,
-//     "**/CVS": true,
-//     "**/.DS_Store": true,
-//     "**/.next": true
-//   },
-//   "workbench.editor.tabCloseButton": "off",
-//   "emmet.includeLanguages": {
-//     "javascript": "javascriptreact"
-//   },
-//   // show snippets before any other auto completion
-//   "editor.snippetSuggestions": "top",
-//   // this lets you quick open multiple items in a row and now have the previous ones closed on you
-//   "workbench.editor.enablePreviewFromQuickOpen": false,
-//   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-//   // These are all my auto-save configs
-//   // "editor.formatOnSave": true,
-//   // turn it off for JS
-//   // "[javascript]": {
-//   //   "editor.formatOnSave": false
-//   // },
-//   // tell the ESLint plugin to run on save
-//   // "eslint.autoFixOnSave": true,
-//   // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-//   // "prettier.disableLanguages": ["js"],
-//   "eslint.alwaysShowStatus": true,
-//   "editor.autoIndent": true,
-//   "window.closeWhenEmpty": true,
-//   "editor.detectIndentation": false,
-//   "files.insertFinalNewline": true,
-//   // "editor.showFoldingControls": "always",
-//   "editor.find.seedSearchStringFromSelection": true,
-//   "editor.matchBrackets": true,
-//   "workbench.editor.enablePreview": true,
-//   "editor.scrollBeyondLastLine": true,
-//   "editor.useTabStops": true,
-//   "editor.formatOnPaste": true,
-//   "window.zoomLevel": 0
-// }
+{
+  //   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.quickSuggestionsDelay": 30,
+  //   "workbench.editor.tabSizing": "shrink",
+  //   "html.format.enable": true,
+  //   "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  //   "editor.tabSize": 2,
+  //   "editor.cursorStyle": "line",
+  //   "editor.wordWrap": "on",
+  //   "editor.multiCursorModifier": "ctrlCmd",
+  //   "editor.fontWeight": "400",
+  "editor.cursorBlinking": "solid",
+  //   "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  //   "workbench.sideBar.location": "left",
+  //   "editor.renderWhitespace": "none",
+  "editor.rulers": [80, 100],
+  //   "editor.minimap.showSlider": "always",
+  //   "extensions.ignoreRecommendations": false,
+  //   "files.exclude": {
+  //     "**/.git": true,
+  //     "**/.svn": true,
+  //     "**/.hg": true,
+  //     "**/CVS": true,
+  //     "**/.DS_Store": true,
+  //     "**/.next": true
+  //   },
+  //   "workbench.editor.tabCloseButton": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  //   // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  //   // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  //   "workbench.editor.enablePreviewFromQuickOpen": false,
+  //   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  //   // These are all my auto-save configs
+  //   // "editor.formatOnSave": true,
+  //   // turn it off for JS
+  //   // "[javascript]": {
+  //   //   "editor.formatOnSave": false
+  //   // },
+  //   // tell the ESLint plugin to run on save
+  //   // "eslint.autoFixOnSave": true,
+  //   // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  //   // "prettier.disableLanguages": ["js"],
+  //   "eslint.alwaysShowStatus": true,
+  "editor.autoIndent": true,
+  //   "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false
+  //   "files.insertFinalNewline": true,
+  //   // "editor.showFoldingControls": "always",
+  //   "editor.find.seedSearchStringFromSelection": true,
+  //   "editor.matchBrackets": true,
+  //   "workbench.editor.enablePreview": true,
+  //   "editor.scrollBeyondLastLine": true,
+  //   "editor.useTabStops": true,
+  //   "editor.formatOnPaste": true,
+  //   "window.zoomLevel": 0
+}
