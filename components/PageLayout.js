@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import GlobalStyle from './styles/GlobalStyle';
+import GlobalStyles from './styles/Global';
 import Header from './Header';
 import Meta from './Meta';
 
@@ -8,13 +8,13 @@ const theme = {
   maxWidth: '1000px'
 };
 
-class Page extends Component {
+class PageLayout extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
         <>
           <Meta />
-          <GlobalStyle />
+          <GlobalStyles />
           <Header />
           {this.props.children}
         </>
@@ -23,4 +23,4 @@ class Page extends Component {
   }
 }
 
-export default Page;
+export default PageLayout;

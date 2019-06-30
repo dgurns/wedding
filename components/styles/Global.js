@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import { mobile, tablet } from '../../utils/mediaQueries';
 
-const GlobalStyle = createGlobalStyle`
+const Global = createGlobalStyle`
   ${
     '' /* @font-face {
     font-family: 'radnika_next';
@@ -28,4 +29,4 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export default GlobalStyle;
+export default Global;
