@@ -7,11 +7,11 @@ const theme = {
   offWhite: '#F8F6F4',
   white: '#FFFFFF',
   // Fonts
-  titleFont: 'Cookie',
+  titleFont: 'Dancing Script', // Cookie, Calligraffitti, Dancing Script
   bodyFont: 'Lato',
   // Font sizes
-  titleFontSize: '4.5rem',
-  subheadFontSize: '3rem',
+  titleFontSize: '4rem',
+  subheadFontSize: '2.8rem',
   // Page Dimensions
   maxContentWidth: '800px'
 };
