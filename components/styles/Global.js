@@ -1,15 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import { mobile, tablet } from '../../utils/mediaQueries';
 
 const Global = createGlobalStyle`
-  ${
-    '' /* @font-face {
-    font-family: 'radnika_next';
-    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  } */
-  }
   html {
     box-sizing: border-box;
     font-size: 10px;
@@ -18,14 +9,39 @@ const Global = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
+    align-items: center;
+    background-color: ${props => props.theme.offWhite}
+    color: ${props => props.theme.offBlack};
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: ${props => props.theme.bodyFont};
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    line-height: 1.1;
+    overflow: auto;
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
-    line-height: 2;
-    ${'' /* font-family: 'radnika_next'; */}
   }
   a {
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #__next {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
   }
 `;
 
