@@ -14,6 +14,8 @@ const CollageStyles = styled.div`
     }
   }
   .image--center {
+    animation-name: center-image;
+    animation-duration: 0.5s;
     left: 0;
     position: absolute;
     top: 0;
@@ -24,6 +26,8 @@ const CollageStyles = styled.div`
     }
   }
   .image--top-left {
+    animation-name: outer-image;
+    animation-duration: 1.5s;
     left: -200px;
     position: absolute;
     top: -40px;
@@ -31,24 +35,28 @@ const CollageStyles = styled.div`
     width: 350px;
     z-index: 3;
     ${mobile} {
-      left: -101px;
+      left: -115px;
       top: -29px;
-      width: 180px;
+      width: 185px;
     }
   }
   .image--left {
+    animation-name: outer-image;
+    animation-duration: 2s;
     left: -160px;
     position: absolute;
     top: 141px;
     width: 190px;
     z-index: 2;
     ${mobile} {
-      left: -98px;
+      left: -106px;
       top: 64px;
-      width: 119px;
+      width: 122px;
     }
   }
   .image--bottom-left {
+    animation-name: outer-image;
+    animation-duration: 1s;
     left: -183px;
     position: absolute;
     bottom: -67px;
@@ -62,6 +70,8 @@ const CollageStyles = styled.div`
     }
   }
   .image--top-right {
+    animation-name: outer-image;
+    animation-duration: 1s;
     right: -200px;
     position: absolute;
     top: -37px;
@@ -75,6 +85,8 @@ const CollageStyles = styled.div`
     }
   }
   .image--right {
+    animation-name: outer-image;
+    animation-duration: 3s;
     right: -167px;
     position: absolute;
     top: 141px;
@@ -87,9 +99,11 @@ const CollageStyles = styled.div`
     }
   }
   .image--bottom-right {
-    right: -183px;
-    position: absolute;
+    animation-name: outer-image;
+    animation-duration: 1.5s;
     bottom: -58px;
+    position: absolute;
+    right: -183px;
     transform: rotate(-2deg);
     width: 282px;
     z-index: 3;
@@ -102,6 +116,24 @@ const CollageStyles = styled.div`
   ${mobile} {
     height: 250px;
     width: 200px;
+  }
+  @keyframes center-image {
+    from {
+      opacity: 0;
+      top: -10px;
+    }
+    to {
+      opacity: 1;
+      top: 0;
+    }
+  }
+  @keyframes outer-image {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 `;
 

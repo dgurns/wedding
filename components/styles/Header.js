@@ -19,13 +19,14 @@ const HeaderStyles = styled.div`
     }
   }
   .title {
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: title;
     font-size: ${theme.titleFontSize};
     position: absolute;
     transform: rotate(-4deg);
     width: 300px;
     ${tablet} {
+      animation-name: title-mobile;
       left: 20px;
     }
     ${mobile} {
@@ -46,8 +47,20 @@ const HeaderStyles = styled.div`
       top: 0px;
     }
   }
+  @keyframes title-mobile {
+    from {
+      left: 15px;
+      opacity: 0.5;
+      top: -5px;
+    }
+    to {
+      left: 20px;
+      opacity: 1;
+      top: 0px;
+    }
+  }
   ul {
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: nav;
     bottom: 0px;
     display: flex;
@@ -57,9 +70,11 @@ const HeaderStyles = styled.div`
     position: absolute;
     right: 0px;
     li {
+      margin-bottom: 0.5rem;
       margin-left: 3rem;
     }
     ${tablet} {
+      animation-name: nav-mobile;
       right: 20px;
     }
     ${mobile} {
@@ -79,12 +94,24 @@ const HeaderStyles = styled.div`
       bottom: 0px;
     }
   }
+  @keyframes nav-mobile {
+    from {
+      right: 15px;
+      opacity: 0.5;
+      bottom: 5px;
+    }
+    to {
+      right: 20px;
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
   ${tablet} {
     height: 145px;
     width: 100%;
   }
   ${mobile} {
-    height: 235px;
+    height: 245px;
   }
 `;
 
