@@ -20,10 +20,11 @@ const Global = createGlobalStyle`
     justify-content: flex-start;
     line-height: 1.1;
     overflow: auto;
-    padding: 0;
+    padding: 0 0 10rem;
     margin: 0;
   }
   a {
+    color: inherit;
     margin: 0;
     padding: 0;
     text-decoration: underline;
