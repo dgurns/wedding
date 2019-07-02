@@ -12,6 +12,8 @@ const theme = {
   // Font sizes
   titleFontSize: '4rem',
   subheadFontSize: '2.8rem',
+  h3FontSize: '2rem',
+  bodyFontSize: '1.3rem',
   // Page Dimensions
   maxContentWidth: '800px'
 };

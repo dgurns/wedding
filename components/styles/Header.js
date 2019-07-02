@@ -19,8 +19,6 @@ const HeaderStyles = styled.div`
     }
   }
   .title {
-    animation-duration: 1.5s;
-    animation-name: title;
     font-size: ${theme.titleFontSize};
     position: absolute;
     transform: rotate(-4deg);
@@ -35,33 +33,7 @@ const HeaderStyles = styled.div`
       width: 100%;
     }
   }
-  @keyframes title {
-    from {
-      left: -5px;
-      opacity: 0.5;
-      top: -5px;
-    }
-    to {
-      left: 0px;
-      opacity: 1;
-      top: 0px;
-    }
-  }
-  @keyframes title-mobile {
-    from {
-      left: 15px;
-      opacity: 0.5;
-      top: -5px;
-    }
-    to {
-      left: 20px;
-      opacity: 1;
-      top: 0px;
-    }
-  }
   ul {
-    animation-duration: 1.5s;
-    animation-name: nav;
     bottom: 0px;
     display: flex;
     flex-direction: row;
@@ -82,36 +54,13 @@ const HeaderStyles = styled.div`
       text-align: right;
     }
   }
-  @keyframes nav {
-    from {
-      right: -5px;
-      opacity: 0.5;
-      bottom: 5px;
-    }
-    to {
-      right: 0px;
-      opacity: 1;
-      bottom: 0px;
-    }
-  }
-  @keyframes nav-mobile {
-    from {
-      right: 15px;
-      opacity: 0.5;
-      bottom: 5px;
-    }
-    to {
-      right: 20px;
-      opacity: 1;
-      bottom: 0px;
-    }
-  }
   ${tablet} {
     height: 145px;
     width: 100%;
   }
   ${mobile} {
     height: 245px;
+    margin-bottom: 2rem;
   }
 `;
 
