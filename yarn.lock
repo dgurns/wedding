@@ -547,9 +547,9 @@
   dependencies:
     regenerator-transform "^0.14.0"
 
-"@babel/plugin-transform-runtime@7.1.0":
+"@babel/plugin-transform-runsubtitle@7.1.0":
   version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.1.0.tgz#9f76920d42551bb577e2dc594df229b5f7624b63"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runsubtitle/-/plugin-transform-runsubtitle-7.1.0.tgz#9f76920d42551bb577e2dc594df229b5f7624b63"
   integrity sha512-WFLMgzu5DLQEah0lKTJzYb14vd6UiES7PTnXcvrPZ1VrwFeJ+mTbvr65fFAsXYMt2bIoOoC0jk76zY1S7HZjUg==
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
@@ -661,20 +661,20 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime-corejs2@7.1.2":
+"@babel/runsubtitle-corejs2@7.1.2":
   version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.1.2.tgz#8695811a3fd8091f54f274b9320334e5e8c62200"
+  resolved "https://registry.yarnpkg.com/@babel/runsubtitle-corejs2/-/runsubtitle-corejs2-7.1.2.tgz#8695811a3fd8091f54f274b9320334e5e8c62200"
   integrity sha512-drxaPByExlcRDKW4ZLubUO4ZkI8/8ax9k9wve1aEthdLKFzjB7XRkOQ0xoTIWGxqdDnWDElkjYq77bt7yrcYJQ==
   dependencies:
     core-js "^2.5.7"
-    regenerator-runtime "^0.12.0"
+    regenerator-runsubtitle "^0.12.0"
 
-"@babel/runtime@7.1.2":
+"@babel/runsubtitle@7.1.2":
   version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
+  resolved "https://registry.yarnpkg.com/@babel/runsubtitle/-/runsubtitle-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
   integrity sha512-Y3SCjmhSupzFB6wcv1KmmFucH6gDVnI30WjOcicV10ju0cZjak3Jcs67YLIXBrmZYw1xCrVeJPbycFwrqNyxpg==
   dependencies:
-    regenerator-runtime "^0.12.0"
+    regenerator-runsubtitle "^0.12.0"
 
 "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.4.4":
   version "7.4.4"
@@ -927,14 +927,14 @@ amp-toolbox-optimizer@0.5.2-beta.6:
   integrity sha512-Dtuq3W+cTludZcNbGEecIfKsq55YqlLuJ9eCr6HaMjwm8pJlsXnjDcYgQVqsbF4R5KLjsr/AywX3xYTi2ni8lQ==
   dependencies:
     amp-toolbox-core "^0.1.5"
-    amp-toolbox-runtime-version "^0.2.6"
+    amp-toolbox-runsubtitle-version "^0.2.6"
     css "^2.2.4"
     parse5 "^5.1.0"
     parse5-htmlparser2-tree-adapter "^5.1.0"
 
-amp-toolbox-runtime-version@^0.2.6:
+amp-toolbox-runsubtitle-version@^0.2.6:
   version "0.2.7"
-  resolved "https://registry.yarnpkg.com/amp-toolbox-runtime-version/-/amp-toolbox-runtime-version-0.2.7.tgz#09cbe73a8929cfbae702348bbf7537b180783e9e"
+  resolved "https://registry.yarnpkg.com/amp-toolbox-runsubtitle-version/-/amp-toolbox-runsubtitle-version-0.2.7.tgz#09cbe73a8929cfbae702348bbf7537b180783e9e"
   integrity sha512-5hUIKtFOrhb5gM1fDlqJ2YDKqSDS8kCWtykt7a4Dvrjr9CPD7L/OK+cKk+u1QLvUKO24ADOE9j2PS28B/TMaiQ==
   dependencies:
     amp-toolbox-core "^0.1.6"
@@ -1163,20 +1163,20 @@ babel-plugin-transform-react-remove-prop-types@0.4.15:
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.15.tgz#7ba830e77276a0e788cd58ea527b5f70396e12a7"
   integrity sha512-bFxxYdkZBwTjTgtZEPTLqu9g8Ajz8x8uEP/O1iVuaZIz2RuxJ2gtx0EXDJRonC++KGsgsW/4Hqvk4KViEtE2nw==
 
-babel-runtime@^6.26.0:
+babel-runsubtitle@^6.26.0:
   version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  resolved "https://registry.yarnpkg.com/babel-runsubtitle/-/babel-runsubtitle-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
   dependencies:
     core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
+    regenerator-runsubtitle "^0.11.0"
 
 babel-types@6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
   integrity sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc=
   dependencies:
-    babel-runtime "^6.26.0"
+    babel-runsubtitle "^6.26.0"
     esutils "^2.0.2"
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
@@ -2960,11 +2960,11 @@ next@8.1.0:
     "@babel/plugin-proposal-object-rest-spread" "7.0.0"
     "@babel/plugin-syntax-dynamic-import" "7.0.0"
     "@babel/plugin-transform-modules-commonjs" "7.1.0"
-    "@babel/plugin-transform-runtime" "7.1.0"
+    "@babel/plugin-transform-runsubtitle" "7.1.0"
     "@babel/preset-env" "7.1.0"
     "@babel/preset-react" "7.0.0"
-    "@babel/runtime" "7.1.2"
-    "@babel/runtime-corejs2" "7.1.2"
+    "@babel/runsubtitle" "7.1.2"
+    "@babel/runsubtitle-corejs2" "7.1.2"
     amphtml-validator "1.0.23"
     async-sema "2.2.0"
     autodll-webpack-plugin "0.4.2"
@@ -3029,7 +3029,7 @@ node-libs-browser@^2.0.0:
     stream-browserify "^2.0.1"
     stream-http "^2.7.2"
     string_decoder "^1.0.0"
-    timers-browserify "^2.0.4"
+    subtitlers-browserify "^2.0.4"
     tty-browserify "0.0.0"
     url "^0.11.0"
     util "^0.11.0"
@@ -3669,14 +3669,14 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
 
-regenerator-runtime@^0.11.0:
+regenerator-runsubtitle@^0.11.0:
   version "0.11.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  resolved "https://registry.yarnpkg.com/regenerator-runsubtitle/-/regenerator-runsubtitle-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
-regenerator-runtime@^0.12.0:
+regenerator-runsubtitle@^0.12.0:
   version "0.12.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+  resolved "https://registry.yarnpkg.com/regenerator-runsubtitle/-/regenerator-runsubtitle-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
 regenerator-transform@^0.14.0:
@@ -4240,9 +4240,9 @@ through2@^2.0.0:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-timers-browserify@^2.0.4:
+subtitlers-browserify@^2.0.4:
   version "2.0.10"
-  resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
+  resolved "https://registry.yarnpkg.com/subtitlers-browserify/-/subtitlers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
   integrity sha512-YvC1SV1XdOUaL6gx5CoGroT3Gu49pK9+TZ38ErPldOWW4j49GI1HKs9DV+KGq/w6y+LZ72W1c8cKz2vzY+qpzg==
   dependencies:
     setimmediate "^1.0.4"

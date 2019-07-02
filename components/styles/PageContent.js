@@ -10,6 +10,10 @@ const PageContent = styled.div`
   flex-direction: column;
   padding: 2rem;
   width: ${theme.maxContentWidth};
+  a {
+    color: ${theme.lightSage};
+    text-decoration: underline;
+  }
   .heading {
     color: ${theme.lightSage};
     display: block;

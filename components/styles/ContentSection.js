@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { mobile } from '../../utils/mediaQueries';
 import theme from '../../utils/theme';
 
-const ScheduleSection = styled.div`
+const ContentSection = styled.div`
   align-items: flex-start;
   display: flex;
   flex-direction: row;
@@ -12,15 +12,11 @@ const ScheduleSection = styled.div`
     margin-right: 2.5rem;
     width: 200px;
   }
-  a {
-    color: ${theme.lightSage};
-    text-decoration: underline;
-  }
   .content {
     flex: 1;
     flex-direction: column;
   }
-  .time {
+  .subtitle {
     font-weight: bold;
   }
   .address {
@@ -36,4 +32,4 @@ const ScheduleSection = styled.div`
   }
 `;
 
-export default ScheduleSection;
+export default ContentSection;
