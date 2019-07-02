@@ -1,3 +1,9 @@
+const rotateStyle = numDegrees => {
+  return {
+    transform: `rotate(${numDegrees}deg)`
+  };
+};
+
 const theme = {
   // Colors
   offBlack: '#282828',
@@ -15,7 +21,10 @@ const theme = {
   h3FontSize: '2rem',
   bodyFontSize: '1.3rem',
   // Page Dimensions
-  maxContentWidth: '800px'
+  maxContentWidth: '800px',
+  // Effects
+  boxShadow: '3px 18px 11px 0 rgba(0, 0, 0, 0.2)',
+  rotateStyle
 };
 
 export default theme;

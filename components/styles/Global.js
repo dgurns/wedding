@@ -18,7 +18,7 @@ const Global = createGlobalStyle`
     font-family: ${props => props.theme.bodyFont};
     font-size: 1.6rem;
     justify-content: flex-start;
-    line-height: 1.1;
+    line-height: 1.2;
     overflow: auto;
     padding: 0 0 10rem;
     margin: 0;

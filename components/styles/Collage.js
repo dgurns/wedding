@@ -8,7 +8,7 @@ const CollageStyles = styled.div`
   width: 360px;
   img {
     border: 16px solid ${theme.white};
-    box-shadow: 3px 18px 11px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: ${theme.boxShadow};
     ${mobile} {
       border: 10px solid ${theme.white};
     }
