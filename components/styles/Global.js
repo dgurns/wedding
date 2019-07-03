@@ -20,8 +20,8 @@ const Global = createGlobalStyle`
     justify-content: flex-start;
     line-height: 1.5;
     overflow: auto;
-    padding: 0 0 10rem;
     margin: 0;
+    padding: 0 0 10rem;
   }
   a {
     color: inherit;
@@ -42,6 +42,7 @@ const Global = createGlobalStyle`
     display: flex;
     flex: 1;
     flex-direction: column;
+    overflow-x: hidden;
     width: 100%;
   }
 `;
