@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile } from '../../utils/mediaQueries';
+import { tablet, mobile } from '../../utils/mediaQueries';
 import theme from '../../utils/theme';
 
 const ContentSection = styled.div`
@@ -7,14 +7,18 @@ const ContentSection = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 5rem;
   img {
+    margin-bottom: 5rem;
     margin-right: 2.5rem;
     width: 200px;
+  }
+  img:last-child {
+    margin-left: 2rem;
   }
   .content {
     flex: 1;
     flex-direction: column;
+    margin-bottom: 5rem;
   }
   .subtitle {
     font-weight: bold;
@@ -23,10 +27,21 @@ const ContentSection = styled.div`
     font-style: italic;
     padding-top: 2rem;
   }
+  ${tablet} {
+    img:last-child {
+      display: none;
+    }
+  }
   ${mobile} {
     flex-direction: column;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
     img {
+      margin-bottom: 2rem;
+    }
+    img:last-child {
+      display: block;
+    }
+    .content {
       margin-bottom: 2rem;
     }
   }

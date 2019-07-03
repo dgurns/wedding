@@ -14,6 +14,10 @@ const PageContent = styled.div`
     color: ${theme.lightSage};
     text-decoration: underline;
   }
+  .hero-image {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
   .heading {
     color: ${theme.lightSage};
     display: block;

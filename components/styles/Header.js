@@ -8,6 +8,7 @@ const HeaderStyles = styled.div`
   flex: 1;
   font-family: ${theme.titleFont};
   height: 100px;
+  line-height: 1.2;
   margin: 4rem 0;
   width: ${theme.maxContentWidth};
   position: relative;
