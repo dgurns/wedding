@@ -12,6 +12,8 @@ const Contact = () => (
     <br />
     Dan's Irish phone: +353 85 250 9533
     <br />
+    Christina's Irish phone: +353 86 104 2451
+    <br />
     <br />
     We can't wait to see you all!
     <br />

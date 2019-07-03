@@ -86,7 +86,7 @@ const Schedule = () => (
         <div className="subtitle">2pm onwards</div>
         Tunes and hang
         <div className="address">
-          ??
+          TBD
           <br />
           <a>link</a>
         </div>
