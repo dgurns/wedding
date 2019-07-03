@@ -7,7 +7,7 @@ const Story = () => (
     <div className="heading">How we met...</div>
     <img
       className="hero-image"
-      src="/static/dan-christina-moab.jpg"
+      src="/static/dan-christina-bk-bridge.jpg"
       style={theme.rotateStyle(-1)}
     />
     <ContentSection>
@@ -35,7 +35,7 @@ const Story = () => (
       <img src="/static/carrots.jpg" style={theme.rotateStyle(-1)} />
     </ContentSection>
     <ContentSection>
-      <img src="/static/engagement.jpg" style={theme.rotateStyle(-2)} />
+      <img src="/static/engagement-drinks.jpg" style={theme.rotateStyle(-2)} />
       <div className="content">
         After a trip to Ireland and just before the Catskills festival, Dan
         popped the question to Christina during a hike at Lake Minnewaska,

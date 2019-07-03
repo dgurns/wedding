@@ -45,12 +45,12 @@ const CollageStyles = styled.div`
     animation-duration: 2s;
     left: -160px;
     position: absolute;
-    top: 141px;
+    top: 149px;
     width: 190px;
     z-index: 2;
     ${mobile} {
       left: -106px;
-      top: 64px;
+      top: 72px;
       width: 122px;
     }
   }

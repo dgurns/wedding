@@ -11,13 +11,13 @@ const Schedule = () => (
         style={theme.rotateStyle(-1)}
       />
       <div className="content">
-        <div className="subtitle">8pm</div>
+        <div className="subtitle">8pm at The Hairy Lemon</div>
         Gathering for drinks to catch up and welcome everyone to Dublin!
         <div className="address">
-          The Hairy Lemon
-          <br />
           Stephen St. Lower, Dublin 2<br />
-          <a href="https://thehairylemon.ie/">thehairylemon.ie</a>
+          <a href="https://goo.gl/maps/fw5YY9w6Xpdvoysp7">
+            goo.gl/maps/fw5YY9w6Xpdvoysp7
+          </a>
         </div>
       </div>
     </ContentSection>
@@ -25,27 +25,27 @@ const Schedule = () => (
     <ContentSection>
       <img src="/static/flowers.jpg" style={theme.rotateStyle(2)} />
       <div className="content">
-        <div className="subtitle">2pm</div>
+        <div className="subtitle">2pm at Fallon & Byrne</div>
         Wedding ceremony, Joshua Dukes presiding.
         <div className="address">
-          Fallon & Byrne, 2nd floor
-          <br />
-          11-17 Exchequer Street, Dublin 2<br />
-          <a href="http://www.fallonandbyrne.com/">fallonandbyrne.com</a>
+          11-17 Exchequer Street (2nd floor), Dublin 2<br />
+          <a href="https://goo.gl/maps/rmBZKMB2FDN2zx7b7">
+            goo.gl/maps/rmBZKMB2FDN2zx7b7
+          </a>
         </div>
       </div>
     </ContentSection>
     <ContentSection>
-      <img src="/static/kehoes-inside.jpg" style={theme.rotateStyle(-1)} />
+      <img src="/static/kehoes.jpg" style={theme.rotateStyle(-1)} />
       <div className="content">
-        <div className="subtitle">3:30pm</div>
+        <div className="subtitle">3:30pm at Kehoe's Pub</div>
         Stroll up Grafton Street for pints and cocktails at Kehoe’s – some say
         the best pint of Guinness in Dublin.
         <div className="address">
-          Kehoe's Pub
-          <br />
           9 Anne St South, Dublin 2<br />
-          <a href="https://kehoesdublin.ie/">kehoesdublin.ie</a>
+          <a href="https://goo.gl/maps/B7QS2akVkzpokmZd7">
+            goo.gl/maps/B7QS2akVkzpokmZd7
+          </a>
         </div>
       </div>
     </ContentSection>
@@ -55,13 +55,13 @@ const Schedule = () => (
         style={theme.rotateStyle(1)}
       />
       <div className="content">
-        <div className="subtitle">5:30pm</div>
+        <div className="subtitle">5:30pm at Fallon & Byrne</div>
         Dinner and reception back at Fallon & Byrne. Bring your instruments!
         <div className="address">
-          Fallon & Byrne, 2nd floor
-          <br />
-          11-17 Exchequer Street, Dublin 2<br />
-          <a href="http://www.fallonandbyrne.com/">fallonandbyrne.com</a>
+          11-17 Exchequer Street (2nd floor), Dublin 2<br />
+          <a href="https://goo.gl/maps/rmBZKMB2FDN2zx7b7">
+            goo.gl/maps/rmBZKMB2FDN2zx7b7
+          </a>
         </div>
       </div>
     </ContentSection>
@@ -69,14 +69,13 @@ const Schedule = () => (
     <ContentSection>
       <img src="/static/brother-hubbard.jpg" style={theme.rotateStyle(-2)} />
       <div className="content">
-        <div className="subtitle">Noon</div>
-        Brunch at Brother Hubbard
+        <div className="subtitle">12pm at Brother Hubbard North</div>
+        Brunch at Brother Hubbard, delicious Middle Eastern/Irish restaurant on
+        Capel Street.
         <div className="address">
-          Brother Hubbard North
-          <br />
           153 Capel Street, Dublin 1<br />
-          <a href="https://brotherhubbard.ie/locations/north">
-            brotherhubbard.ie
+          <a href="https://goo.gl/maps/kGWfndhEgxHTDDzH6">
+            goo.gl/maps/kGWfndhEgxHTDDzH6
           </a>
         </div>
       </div>
@@ -87,8 +86,6 @@ const Schedule = () => (
         <div className="subtitle">2pm onwards</div>
         Tunes and hang
         <div className="address">
-          ??
-          <br />
           ??
           <br />
           <a>link</a>

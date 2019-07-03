@@ -3,7 +3,7 @@ import CollageStyles from './styles/Collage';
 const Collage = props => (
   <CollageStyles>
     <img className="image--center" src="/static/hapenny-bridge.jpg" />
-    <img className="image--top-left" src="/static/fiddle-pipes.jpg" />
+    <img className="image--top-left" src="/static/fiddle-drawing.jpg" />
     <img className="image--left" src="/static/flowers.jpg" />
     <img className="image--bottom-left" src="/static/mason-jars.jpg" />
     <img className="image--top-right" src="/static/dan-christina-door.jpeg" />
