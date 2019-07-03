@@ -5,7 +5,6 @@ import theme from '../../utils/theme';
 const HeaderStyles = styled.div`
   color: ${theme.sage};
   display: flex;
-  flex: 1;
   font-family: ${theme.titleFont};
   height: 100px;
   line-height: 1.2;
