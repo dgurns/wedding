@@ -13,7 +13,7 @@ const Lodging = () => (
         wedding venue. We've block booked rooms, so if you'd like to reserve a
         room there, just email info@centralhotel.ie and include "For Isobel's
         attention" and mention our wedding. They should be discounted off the
-        public rate for Thurs, Fri, and Sat (Sept 26-28).
+        public rate for Thurs, Fri, and Sat (Sept 26 - 28).
         <div className="address">
           The Central Hotel
           <br />
