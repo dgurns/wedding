@@ -21,7 +21,7 @@ const Global = createGlobalStyle`
     line-height: 1.5;
     overflow: auto;
     margin: 0;
-    padding: 0 0 10rem;
+    padding: 0 0 8rem;
   }
   a {
     color: inherit;
@@ -43,6 +43,7 @@ const Global = createGlobalStyle`
     flex: 1;
     flex-direction: column;
     overflow-x: hidden;
+    padding-bottom: 3rem;
     width: 100%;
   }
 `;
