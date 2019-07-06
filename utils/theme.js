@@ -13,7 +13,7 @@ const theme = {
   offWhite: '#F8F6F4',
   white: '#FFFFFF',
   // Fonts
-  titleFont: 'Dancing Script', // Cookie, Calligraffitti, Dancing Script
+  titleFont: 'Dancing Script',
   bodyFont: 'Lato',
   // Font sizes
   titleFontSize: '4rem',
