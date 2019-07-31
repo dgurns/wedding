@@ -81,14 +81,17 @@ const Schedule = () => (
       </div>
     </ContentSection>
     <ContentSection>
-      <img src="/static/spoons.jpg" style={theme.rotateStyle(-2)} />
+      <img src="/static/pipers-corner.jpg" style={theme.rotateStyle(1)} />
       <div className="content">
-        <div className="subtitle">2pm onwards</div>
-        Tunes and hang
+        <div className="subtitle">2pm onwards at Pipers Corner</div>
+        Post wedding tunes and recovering at a great new music pub, a short walk
+        or Luas trip from brunch.
         <div className="address">
-          TBD
+          105-106 Marlborough St, Dublin 1
           <br />
-          <a>link</a>
+          <a href="https://goo.gl/maps/R5ATYb378Ku42jA27">
+            goo.gl/maps/R5ATYb378Ku42jA27
+          </a>
         </div>
       </div>
     </ContentSection>
