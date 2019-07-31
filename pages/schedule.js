@@ -84,8 +84,8 @@ const Schedule = () => (
       <img src="/static/pipers-corner.jpg" style={theme.rotateStyle(1)} />
       <div className="content">
         <div className="subtitle">2pm onwards at Pipers Corner</div>
-        Post wedding tunes and recovering at a great new music pub, a short walk
-        or Luas trip from brunch.
+        Post wedding tunes and hang at a great new music pub, a short walk or
+        Luas trip from brunch.
         <div className="address">
           105-106 Marlborough St, Dublin 1
           <br />
