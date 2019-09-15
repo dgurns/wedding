@@ -32,6 +32,11 @@ const Header = ({ router }) => {
           </Link>
         </li>
         <li>
+          <Link href="/gifts">
+            <a style={applySelected('/gifts')}>Gifts</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/contact">
             <a style={applySelected('/contact')}>Contact</a>
           </Link>

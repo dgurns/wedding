@@ -55,11 +55,11 @@ const HeaderStyles = styled.div`
     }
   }
   ${tablet} {
-    height: 145px;
+    height: 155px;
     width: 100%;
   }
   ${mobile} {
-    height: 245px;
+    height: 295px;
     margin-bottom: 2rem;
   }
 `;

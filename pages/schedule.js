@@ -70,8 +70,8 @@ const Schedule = () => (
       <img src="/static/brother-hubbard.jpg" style={theme.rotateStyle(-2)} />
       <div className="content">
         <div className="subtitle">12pm at Brother Hubbard North</div>
-        Brunch at Brother Hubbard, delicious Middle Eastern/Irish restaurant on
-        Capel Street.
+        Informal brunch at Brother Hubbard, delicious Middle Eastern/Irish
+        restaurant on Capel Street.
         <div className="address">
           153 Capel Street, Dublin 1<br />
           <a href="https://goo.gl/maps/kGWfndhEgxHTDDzH6">
@@ -84,7 +84,7 @@ const Schedule = () => (
       <img src="/static/pipers-corner.jpg" style={theme.rotateStyle(1)} />
       <div className="content">
         <div className="subtitle">2pm onwards at Pipers Corner</div>
-        Post wedding tunes and hang at a great new music pub, a short walk or
+        Post wedding tunes and hang at this great music pub, a short walk or
         Luas trip from brunch.
         <div className="address">
           105-106 Marlborough St, Dublin 1
